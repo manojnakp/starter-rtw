@@ -1,0 +1,29 @@
+{
+  "name": "starter-rtw",
+  "version": "1.0.0",
+  "description": "starter for react-tailwind toolchain",
+  "main": "src/index.jsx",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manojnakp/starter-rtw.git"
+  },
+  "keywords": [
+    "front-end",
+    "css",
+    "mobile",
+    "framework",
+    "react",
+    "tailwind",
+    "tailwindcss"
+  ],
+  "author": "Manojna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manojnakp/starter-rtw/issues"
+  },
+  "homepage": "https://github.com/manojnakp/starter-rtw#readme"
+}
