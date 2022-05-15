@@ -5,6 +5,14 @@
   "main": "src/index.jsx",
   "type": "module",
   "scripts": {
+    "start": "npm run watch",
+    "build": "webpack build",
+    "build:css": "tailwindcss -o dist/tailwind.css -c tailwind.config.cjs",
+    "clear:dist": "rm dist/*",
+    "lint": "eslint \"src/*.{js,jsx}\"",
+    "lint:fix": "eslint --fix \"src/*.{js,jsx}\"",
+    "watch": "webpack serve",
+    "watch:css": "tailwindcss -o dist/tailwind.css -c tailwind.config.cjs --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
