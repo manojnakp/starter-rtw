@@ -25,5 +25,18 @@
   "bugs": {
     "url": "https://github.com/manojnakp/starter-rtw/issues"
   },
-  "homepage": "https://github.com/manojnakp/starter-rtw#readme"
+  "homepage": "https://github.com/manojnakp/starter-rtw#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss-loader": "^6.2.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
 }
